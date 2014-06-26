@@ -18,8 +18,10 @@ fi
 
 #################
 # Start Handle
+#
+# OBS.: Use GNU Netcat in Ubuntu see http://stackoverflow.com/questions/10065993/how-to-switch-to-netcat-traditional-in-ubuntu
 #################
 while true
 do
-  nc -l -p "$PORT" -e "$PROGRAM"
+  /bin/nc.traditional -l -p "$PORT" -e "$PROGRAM"
 done
