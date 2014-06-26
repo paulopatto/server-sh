@@ -1,0 +1,9 @@
+# Servidor HTTP com Shell Script
+
+
+# Requirimentos
+
+## Netcat
+Usado em distribuições *Linux* para manipular de um modo bem primitivo os protocolos *TCP*/*UDP* e será usado para "_escutar_" determinadas portas *TCP* e encaminhar a comunicação para outros comandos.
+
+
